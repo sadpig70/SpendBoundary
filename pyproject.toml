@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "SpendBoundary"
+version = "1.0.0"
+description = "AI Agent Context-Boundary Spend Gate — veto agent spends that cross context boundaries without re-authorization"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[project.scripts]
+spend-boundary = "SpendBoundary.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["SpendBoundary*"]
