@@ -1,3 +1,5 @@
+![SpendBoundary](assets/SpendBoundry_hero.jpg)
+
 # SpendBoundary
 
 > AI Agent Context-Boundary Spend Gate — veto agent spends that cross context boundaries without re-authorization.
